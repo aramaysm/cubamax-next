@@ -9,7 +9,7 @@ export function Banner_DownloadApp({
   linkGooglePlay,
 }: BannerDownloadAppProps) {
   return (
-    <div className="container-fluid justify-content-center d-flex align-content-center mt-5 mb-3">
+    <div className="container-fluid justify-content-center d-flex align-content-center mt-5">
       <div className="col-lg-10 col-12 col-sm-12 mt-5">
         <div className="row justify-content-around d-flex align-content-around">
           <div className="col-lg-6 col-12 col-sm-12 justify-content-center d-flex align-item-center">
@@ -50,7 +50,7 @@ export function Banner_DownloadApp({
             </div>
           </div>
           <div className="col-lg-6 col-12 col-sm-12 justify-content-center d-flex align-items-center">
-            <Image src={ImageCel} width="350" height="450" alt="Phone"/>
+            <Image src={ImageCel} width="325" height="450" alt="Phone"/>
           </div>
         </div>
       </div>

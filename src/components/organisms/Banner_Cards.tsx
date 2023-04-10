@@ -17,7 +17,7 @@ export  function Banner({
       <div className="col-lg-10 col-12 col-sm-12 ">
         <div className="row justify-content-around d-flex align-content-around">
           {cardsArray.map((card) => (
-            <div key={card.title} className="col-lg-3 col-5 col-sm-5 cursor-p ">
+            <div key={card.title} className="col-lg-3 col-6 col-sm-6 cursor-p ">
               <Card
                 title={card.title}
                 description={card.description}

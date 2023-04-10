@@ -13,9 +13,12 @@
 }
 .card_visit_cuba{  
   margin-bottom: -35px !important;
-  background-color: rgba(253, 189, 49, 0.85) !important;
-   
+  background-color: rgba(253, 189, 49, 0.85) !important;   
 }
+.banner_jobs{
+  background-color: #F6F5F1 !important;
+}
+
 @media (min-width: 992px) {
   .banner2_habana{
     min-height: 300px !important;  

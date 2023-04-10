@@ -1,9 +1,9 @@
 import Head from "next/head";
 import { Inter } from "next/font/google";
 
-import {Banner,Banner_Habana} from "@/components/organisms";
+import {Banner,Banner_Habana,Banner_DownloadApp,Banner_Jobs,Banner_Contacts} from "@/components/organisms";
 import {IconBox, IconCar, IconHotel,IconMoney, IconPassport, IconPhone, IconPlane, IconShop} from "@/resources"
-import { Banner_DownloadApp } from "@/components/organisms/Banner_DownloadApp";
+
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -27,6 +27,12 @@ export default function Home() {
         <Banner_DownloadApp title={"Visita la tienda para que descargues nuestra APP"} 
         description={""}
          linkAppStore={""} linkGooglePlay={""}  />
+      </div>
+      <div>
+        <Banner_Jobs />
+      </div>
+      <div>
+        <Banner_Contacts />
       </div>
      
     </>
