@@ -7,8 +7,8 @@ export default function Button({
   disabled,
   icon,
 }: ButtonProps) {
-  return icon !== undefined ? (
-    <button className={"button-" + color} onClick={onClick} disabled={disabled}>
+  return icon === undefined ? (
+    <button className={"button button-" + color} onClick={onClick} disabled={disabled}>
       {label}
     </button>
   ) : (

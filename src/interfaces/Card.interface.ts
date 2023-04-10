@@ -4,4 +4,5 @@ export interface CardProps {
     icon?: any;
     bgColor?: string;
     iconColor?: string;
+    onClick?:()=>void;
   }

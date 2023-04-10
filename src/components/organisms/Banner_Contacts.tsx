@@ -8,9 +8,10 @@ export function Banner_Contacts() {
     <div
       className={
         styles.banner_jobs +
-        " container-fluid justify-content-center d-flex align-content-center pt-5 pb-3 row"
+        " container-fluid  pt-5 pb-3  "
       }
     >
+      <div className="row justify-content-center d-flex align-content-center">
       <div className="col-lg-10 col-12 col-sm-12 ">
         <div className="row justify-content-center d-flex align-content-center">
           <Image
@@ -26,11 +27,11 @@ export function Banner_Contacts() {
             <h6>ENCUENTRANOS EN</h6>
           </div>
           <div className="card-body">
-            <div className="row justify-content-between d-flex align-content-between">
-              <div className="col-lg-3 col-12 col-sm-12 mt-auto">
-                <div className="row">
+            <div className="row justify-content-around d-flex align-content-around">
+              <div className="col-lg-3 col-12 col-sm-12 mt-3">
+                <div className="row justify-content-around d-flex align-content-around">
                   {icons_socialmedia.slice(0, 3).map((item) => (
-                    <div className="col-4 " key={item.name}>
+                    <div className="col-4 text-center" key={item.name}>
                       <img 
                         className="cursor-pointer bg-secondary p-1 rounded-1"
                         src={item.src}
@@ -42,8 +43,8 @@ export function Banner_Contacts() {
                   ))}
                 </div>
               </div>
-              <div className="col-lg-7 col-12 col-sm-12 mt-auto">
-                <div className="row">
+              <div className="col-lg-7 col-12 col-sm-12 mt-3">
+                <div className="row justify-content-around d-flex align-content-around">
                   {icons_socialmedia.slice(3, 9).map((item) => (
                     <div className="col-2 " key={item.name}>
                       <img
@@ -61,6 +62,8 @@ export function Banner_Contacts() {
           </div>
         </div>
       </div>
+      </div>
+     
     </div>
   );
 }

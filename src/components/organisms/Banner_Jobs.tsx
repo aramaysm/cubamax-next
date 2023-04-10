@@ -1,4 +1,5 @@
 import styles from "@/styles/Home.module.css";
+import Button from "../atoms/Button";
 
 export function Banner_Jobs({}) {
   return (
@@ -14,7 +15,10 @@ export function Banner_Jobs({}) {
             </div>
           </div>
           <div className="col-lg-4 col-12 col-sm-12 justify-content-center d-flex align-items-center">
-            <button className="mb-3 button button-secondary">{"SOLICITAR AHORA >"} </button>
+            <Button onClick={()=> alert("Clikeaste el boton solicitar empleo")} 
+            label={"SOLICITAR AHORA >"}
+             color={"secondary"} disabled={false}  />
+            
           </div>
         </div>
       </div>

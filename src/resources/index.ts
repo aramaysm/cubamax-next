@@ -7,6 +7,7 @@ import IconPhone from "./icons8-phonelink-ring-48.png";
 import IconPassport from "./icons8-passport-48.png";
 import IconShop from "./icons8-shop-48.png";
 import ImageCel from "./cel-cubamax.png";
-import ImgSlogan from "./Slogan.png"
+import ImgSlogan from "./Slogan.png";
+import ImgLogo from "./Logo.png"
 
-export {IconBox, IconCar, IconHotel,IconMoney, IconPassport, IconPhone, IconPlane, IconShop, ImageCel,ImgSlogan};
+export {IconBox, IconCar, IconHotel,IconMoney, IconPassport, IconPhone, IconPlane, IconShop, ImageCel,ImgSlogan,ImgLogo};
