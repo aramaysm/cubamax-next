@@ -8,7 +8,7 @@ export function Banner_Habana({ title, description }: CardProps) {
       <div
         className={
           styles.banner2_habana +
-          " container-fluid mb-3 justify-content-lg-start d-flex align-content-lg-start justify-content-center d-flex align-content-center"
+          " container-fluid mb-3 mt-5 justify-content-lg-start d-flex align-content-lg-start justify-content-center d-flex align-content-center"
         }
       >
         <div className="col-lg-4 col-11 col-sm-11 ">

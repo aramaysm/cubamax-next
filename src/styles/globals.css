@@ -7047,4 +7047,7 @@ textarea {
 .cursor-p{
   cursor:pointer !important;
 }
+.no-decoration{
+  text-decoration: none !important;
+}
 /*# sourceMappingURL=bootstrap.css.map */

@@ -4,4 +4,5 @@ export interface ButtonProps {
     color: string;
     disabled: boolean;
     outlined?:boolean;
+    icon?:string;
 }
